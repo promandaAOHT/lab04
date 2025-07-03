@@ -21,26 +21,14 @@ Otros archivos como lab_part1.txt, config.txt, etc.
 
 📥 Commit inicial
 Se realizó el commit inicial con los archivos base:
-
-bash
-Copiar
-Editar
 git add .
 git commit -m "feat: initialize Python project"
 Luego se enlazó con GitHub:
-
-bash
-Copiar
-Editar
 git remote add origin https://github.com/promandaAOHT/lab04.git
 git branch -M main
 git push -u origin main
 ➕ Commits adicionales (Lab anterior)
 Se agregaron 3 commits con partes del laboratorio anterior, por ejemplo:
-
-bash
-Copiar
-Editar
 git commit -m "docs: agregar parte 1 del laboratorio anterior"
 git commit -m "docs: agregar parte 2 del laboratorio anterior"
 git commit -m "docs: agregar parte 3 del laboratorio anterior"
@@ -48,8 +36,6 @@ git commit -m "docs: agregar parte 3 del laboratorio anterior"
 Se introdujo un error de sintaxis en main.py:
 
 python
-Copiar
-Editar
 def saludar()
     print("Hola")
 Se ejecutó el archivo y arrojó un SyntaxError.  
